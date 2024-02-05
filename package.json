@@ -1,0 +1,26 @@
+{
+  "name": "find-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js ",
+    "dev": "tsc &&  node --inspect-brk dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^20.11.14",
+    "@types/ora": "^3.2.0",
+    "chalk": "4.0.0",
+    "exceljs": "^4.4.0",
+    "mime": "^4.0.1",
+    "ora": "5.1.0",
+    "text-extensions": "^2.4.0",
+    "typescript": "^5.3.3"
+  },
+  "private": true
+}
+
